@@ -1,0 +1,134 @@
+/* Write your CSS here */
+
+.left-navbar-container {
+  background-color: #e2e8f0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.right-navbar-container {
+  background-color: #e2e8f0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.left-navbar-heading {
+  font-size: 20px;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.items-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+.items {
+  font-size: 19px;
+  color: #475569;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+.ads-container {
+  display: flex;
+  margin-top: 17px;
+}
+.ads {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #475569;
+  margin: 4px;
+  height: 132px;
+  width: 94px;
+}
+.ad-text {
+  color: #475569;
+  font-size: 18px;
+}
+.content-container {
+  background-color: #f1f5f9;
+  padding: 20px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  width: 100%;
+}
+.content-text {
+  font-size: 19px;
+  color: #475569;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.4;
+}
+@media screen and (min-width: 768px) {
+  .body-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .left-navbar-container {
+    padding: 21px 26px;
+    display: inline;
+    width: 26%;
+    height: 430px;
+    margin-bottom: 0px;
+  }
+  .right-navbar-container {
+    padding: 21px 26px;
+    display: inline;
+    width: 26%;
+    height: 430px;
+    margin-bottom: 0px;
+  }
+  .left-navbar-heading {
+    font-size: 23px;
+    text-align: left;
+  }
+  .items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .items {
+    font-size: 22px;
+    margin-bottom: 14px;
+    margin-top: 6px;
+  }
+  .ads-container {
+    flex-direction: column;
+    margin-top: 17px;
+  }
+  .ads {
+    margin: 4px;
+    margin-bottom: 6px;
+    height: 162px;
+    width: 100%;
+  }
+  .ad-text {
+    font-size: 22px;
+  }
+  .content-container {
+    padding: 20px 25px;
+    margin: 0px 5px;
+    height: 430px;
+    width: 44%;
+    flex-grow: 1;
+  }
+  .content-text {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 11px;
+  }
+}

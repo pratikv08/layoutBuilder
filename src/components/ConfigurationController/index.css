@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.configuration-controller-container {
+  background-color: #475569;
+  padding: 13px 43px;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+}
+.layout-heading {
+  font-size: 29px;
+  font-weight: 500;
+}
+.checkbox{
+  cursor: pointer;
+}
+.content-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.content-list {
+  display: flex;
+}
+.content-para {
+  margin: 11px 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .configuration-controller-container {
+    background-color: #475569;
+    padding: 13px 93px;
+    color: #f1f5f9;
+    font-family: 'Roboto';
+  }
+  .layout-heading {
+    font-size: 38px;
+    font-weight: 500;
+  }
+}

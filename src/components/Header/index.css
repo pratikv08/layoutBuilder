@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.header-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  background-color: #cbd5e1;
+  color: #475569;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.header-footer-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .header-footer-container {
+    height: 110px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .header-footer-heading {
+    font-size: 37px;
+    font-family: 'Roboto';
+  }
+}
